@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+      display: flex;
+      min-height: 100vh;
+      background-color: mediumseagreen;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .clock{
+    width: 15em;
+    height: 15em;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    }
+    
+    .hand{
+      width: 3.5px;
+      background-color: black;
+      transform-origin: bottom;
+      position: absolute;
+      left: 50%;
+      bottom: 50%;
+      border-radius: 10px;
+      }
+      
+      .hour-hand{
+        height: 32%;
+      }
+      
+      .min-hand{
+        height: 38%;
+      }
+      
+      .sec-hand{
+        height: 45%;
+      }
